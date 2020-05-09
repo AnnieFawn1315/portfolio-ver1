@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <link rel="stylesheet" href="stylesheets/menucopy1.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Varela+Round&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>How It Works</title>
+</head>
+
+<div class="wrapper">
+<body class="gridcontainer">
+
+<div class="pure-menu pure-menu-horizontal center">
+ <ul class="pure-menu-list">
+      <a href="index.html"><img src="Cart-Logo.svg" class="navimg"></a>
+        <li class="pure-menu-item"><a href="index.html" class="pure-menu-link">Home</a></li>
+        <li class="pure-menu-item"><a href="about.html" class="pure-menu-link">About</a></li>
+        <li class="pure-menu-item"><a href="works.html" class="pure-menu-link">How It Works</a></li>
+		    <li class="pure-menu-item"><a href="menu.html" class="pure-menu-link">Menu</a></li>
+        <li class="pure-menu-item"><a href="calendar.html" class="pure-menu-link">Order</a></li>
+    </ul>
+    <br>
+
+</div>
+	
+	<div class="gridcontainer">
+	<h1 class="center"> How It Works</h1>
+	
+
+    <button class="accordion">Step 1</button>
+        <div class="panel center">
+	<div><br>
+	<div><img src="images/blur-blurry-coffee-273222.jpg"></div>	
+	<div><p>Create your mobile account. Our registration process takes about 15 minutes. We want to get to know you - dietary preferences, allergies, location, and payment info.</p></div>
+	</div>
+        </div>
+
+    <button class="accordion">Step 2</button>
+    <div class="panel center">
+	   <div><br>
+           <div><img src="images/adult-blur-books-842567.jpg"></div>
+	       <div ><p>Each day you can choose from one of five meal choices - each inspired by one of our founders.</p></div>	
+	       
+	</div>
+        </div>
+
+        <button class="accordion">Step 3</button>
+        <div class="panel center"> <br>
+	<img src="images/buffet-chicken-delicious-5938.jpg">
+	<div><p>As a weekly subscriber, you can recieve between 1-5 lunches a week*. Preorders are hand-delivered to your desk, or you can choose from our cart when we come by. All lunches are $9.50, so there is no need for cash or daily payments.</p></div>
+       </div>
+       
+	<div>
+	<h2 class = "center">It's That Easy.</h2>
+	</div>	
+		
+	 <div class="center"><h1>Cart</h1>
+        <p>Healthy, Delicious, Affordable.</p>
+	<p>Meals delivered straight to your desk.<br>
+		 *Meal deliveries can be cancelled with 24 hour notice.
+		 </p>
+	</div>	
+		
+
+				<div class="pure-menu pure-menu-horizontal center">
+ <ul class="pure-menu-list">
+        <li class="pure-menu-item"><a href="index.html" class="pure-menu-link">Home</a></li>
+        <li class="pure-menu-item"><a href="about.html" class="pure-menu-link">About</a></li>
+        <li class="pure-menu-item"><a href="works.html" class="pure-menu-link">How It Works</a></li>
+        <li class="pure-menu-item"><a href="menu.html" class="pure-menu-link">Menu</a></li>
+        <li class="pure-menu-item"><a href="calendar.html" class="pure-menu-link">Order</a></li>
+    </ul>
+</div>
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+<script src="owlcarousel/owl.carousel.min.js"></script>   
+<script>
+    $(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:20,
+      center: true,
+      autoWidth: true,
+      
+  });
+});
+    </script>
+        
+    </div>    
+</body>
+</div>
+</html>

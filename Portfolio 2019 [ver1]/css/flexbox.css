@@ -1,0 +1,26 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+   
+
+}
+
+.flex-container > div {
+  border-style: solid;
+  border-color: white;
+  margin: 10px;    
+  padding: 20px;
+  text-align: center;
+
+}
+@media screen and (max-width: 1000px) {
+  .flex-container {   
+    flex-direction: column;
+  }
+    .responsive {
+        width: 90%;
+    }
+}
+p{
+    text-align: left;
+}

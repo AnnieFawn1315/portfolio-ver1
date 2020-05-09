@@ -1,0 +1,8 @@
+[20-Jun-2019 20:39:31 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/annap307/public_html/homepage/send.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/annap307/public_html/homepage/send.php on line 10
+[08-Aug-2019 05:24:12 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/annap307/public_html/homepage/send.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/annap307/public_html/homepage/send.php on line 10

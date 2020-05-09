@@ -1,0 +1,110 @@
+@import url("https://use.typekit.net/skm0stl.css");
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #ef767a;
+    background-image: linear-gradient(45deg, #ffd852 31.25%, #ffffff 31.25%, #ffffff 50%, #ffd852 50%, #ffd852 81.25%, #ffffff 81.25%, #ffffff 100%);
+    background-size: 113.14px 113.14px;
+}
+
+
+.gridcontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.owl-carousel {
+    flex-grow: 1;
+}
+
+.pbox {
+	max-width: 700px;
+}
+
+.pbox2 {
+	max-width: 700px;
+    margin-left: auto;
+}
+
+.wrapper{
+    background-color: white;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    
+}
+
+nav {
+    
+    background-color: #456990;
+    padding: 5px;
+}
+
+p {
+    color: #49beaa;
+}
+.center {
+    text-align: center;
+}
+span {
+    color: #456990;
+}
+
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #49beaa; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.accordion {
+  background-color: #ef767a;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 25px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #456990; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+transition: max-height 0.2s ease-out; 
+}
+.fontweight{
+    font-weight: 300;
+    
+}

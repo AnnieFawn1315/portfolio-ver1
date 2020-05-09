@@ -1,0 +1,66 @@
+@import url("https://use.typekit.net/skm0stl.css");
+
+
+.navimg {
+    max-height: 100px;
+    max-width: 100px;
+    
+    
+}
+
+.footerimg {
+    max-height: 50px;
+    width: 50px;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+    height: 100%;
+}
+
+.worksimg2 {
+    max-width: 700px;
+}
+
+.worksimg {
+    max-width: 700px;
+    margin-left: auto;
+}
+
+    
+     /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+    
+    
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+}
+
+
+footer ul li{
+    display: inline-block;
+}
+
+footer li a {
+    font-size: 1em;
+    color: white;
+}
+
+.owl-carousel {
+    flex-grow: 1;
+}
+
+.pbox {
+	max-width: 700px;
+}
+
+.pbox2 {
+	max-width: 700px;
+    margin-left: auto;
+}
+
+
